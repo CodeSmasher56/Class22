@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM Tags</title>
+</head>
+<body>
+<!-- 
+  <p id="para">Today is fridaye</p> -->
+
+  <button id="btn">Show now</button>
+
+
+
+  <!-- <button id="Btn2">Login page</button> -->
+
+    <script>
+
+//         //insertchild
+// let para = document.getElementById("para")
+
+// const tag1 = document.createElement("h1");
+// tag1.innerHTML="Hello World";
+// document.body.appendChild(tag1)
+
+
+// //insertbefore 
+
+// let tag2 = document.createElement("h1");
+// tag2.innerHTML = "This is a paragrap";
+// para.parentNode.insertBefore(tag2, para)
+
+
+// Events
+// let btn = document.getElementById("btn");
+// btn.addEventListener("click", function(){
+//     alert("Yoyo Btn");
+// })
+      //Click
+// let Btn2 = document.getElementById("Btn2");
+// Btn2.addEventListener("Click", function(){
+//     alert("Your are logged in");
+// })
+
+     // mouseover    // click per jaty hi out
+     // dblclick     // doubleClick
+     // resize       // screen ky lihaz sy auto adjust hota ha
+     // Click        
+     // mouseout
+     // mousemove
+     // contextmanu  //(work in to right click btn)
+
+
+     let btn = document.getElementById("btn");
+btn.addEventListener("contextmenu", function(){
+    alert("Yoyo Btn");
+})
+
+
+// let btn = document.getElementById("btn");
+// // btn.style.backgroundColor="Blue";  // ye inline property ha backgroundColor style 
+// btn.style.backgroundColor="green";
+// // btn.style.backgroundColor="Blue";
+
+// btn.addEventListener("mousemove", function(){
+//     alert("Yoyo Btn");
+// })
+
+btn.addEventListener("click ", function(){
+    let text = text.value
+    console.log(text)
+})
+
+
+    </script>
+</body>
+</html>
